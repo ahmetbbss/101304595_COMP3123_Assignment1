@@ -18,7 +18,7 @@ app.use(express.json())
 
 
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Welcome to COMP3123_Assignment1, written by 101304595 (Ahmet Buyukbas)');
 });
 
 app.use('/api/v1/user', userRoute);
