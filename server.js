@@ -8,7 +8,7 @@ const employeeRoute = require('./routes/employee_route');
 const cors = require('cors');
 app.use(cors(
   {
-    origin: 'https://656b837b824ffc787e24d436--capable-creponne-de69d4.netlify.app',
+    origin: 'https://101304595-comp-3123-assignment2.vercel.app',
     credentials: true
   }
 ));
