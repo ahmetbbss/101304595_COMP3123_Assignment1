@@ -5,7 +5,13 @@ const port = 3000; // You can change this to any port you prefer
 const userRoute = require('./routes/user_route');
 const employeeRoute = require('./routes/employee_route');
 
-
+const cors = require('cors');
+app.use(cors(
+  {
+    origin: 'http://localhost:3000',
+    credentials: true
+  }
+));
 
 const mongoose =require("mongoose")
 mongoose.connect("mongodb+srv://ahmetbuyukbas:Yozgatlim38@cluster0.edf73am.mongodb.net/register?retryWrites=true&w=majority",{
