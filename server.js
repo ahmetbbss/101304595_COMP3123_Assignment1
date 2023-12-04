@@ -8,7 +8,7 @@ const employeeRoute = require('./routes/employee_route');
 const cors = require('cors');
 app.use(cors(
   {
-    origin: 'http://localhost:3000',
+    origin: 'https://101304595-comp-3123-assignment2.vercel.app',
     credentials: true
   }
 ));
